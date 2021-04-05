@@ -42,7 +42,7 @@
                 $nbJustificatifs++;
                 
                 $libelle = htmlspecialchars($unFraisHorsForfait['libelle']);
-                $libelle=  substr($libelle,0,20);
+                //$libelle=  substr($libelle,0,20);
                $date = $unFraisHorsForfait['date'];
                 $montant = $unFraisHorsForfait['montant'];
                 $id = $unFraisHorsForfait['id'];

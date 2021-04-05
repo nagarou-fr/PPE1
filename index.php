@@ -53,7 +53,7 @@ case 'SuivreLePaiement':
     break;
 case 'SuivrePaiement':
     $monControleur = 'paiementFrais';
-    include 'controleurs/c_SuivrePaiment.php';
+    include 'controleurs/c_suivrePaiment.php';
     break;
 case 'deconnexion':
     include 'controleurs/c_deconnexion.php';

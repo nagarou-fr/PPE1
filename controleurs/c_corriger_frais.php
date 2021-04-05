@@ -95,7 +95,7 @@ break;
               {
                 	exit('<b>Catched exception at line '. $e->getLine() .' :</b> '. $e->getMessage());
               }
-          //     echo '<script type="text/javascript">window.alert("La fiche a bien été validé,vous pouvez choisir une autre fiche ");</script>';
+               echo '<script type="text/javascript">window.alert("La fiche a bien été validé,vous pouvez choisir une autre fiche ");</script>';
          $quantite=0;
        $lesFraisForfait = $pdo->getLesFraisForfait($idVisiteur, $mois); // pour avoir le montant totale
           foreach ($lesFraisForfait as $unFraisForfait) {
